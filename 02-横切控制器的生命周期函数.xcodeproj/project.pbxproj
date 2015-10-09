@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC71C9D1BC7523A00F6CA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71C9C1BC7523A00F6CA07 /* main.m */; };
+		BCC71CA01BC7523A00F6CA07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71C9F1BC7523A00F6CA07 /* AppDelegate.m */; };
+		BCC71CA31BC7523A00F6CA07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71CA21BC7523A00F6CA07 /* ViewController.m */; };
+		BCC71CA61BC7523A00F6CA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC71CA41BC7523A00F6CA07 /* Main.storyboard */; };
+		BCC71CA81BC7523A00F6CA07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC71CA71BC7523A00F6CA07 /* Images.xcassets */; };
+		BCC71CAB1BC7523A00F6CA07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC71CA91BC7523A00F6CA07 /* LaunchScreen.xib */; };
+		BCC71CB71BC7523A00F6CA07 /* _2_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71CB61BC7523A00F6CA07 /* _2_____________Tests.m */; };
+		BCC71CC21BC7528100F6CA07 /* UserRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71CC11BC7528100F6CA07 /* UserRecord.m */; };
+		BCC71CC51BC753FE00F6CA07 /* NSObject+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71CC41BC753FE00F6CA07 /* NSObject+AOP.m */; };
+		BCC71CC81BC7541200F6CA07 /* UIViewController+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC71CC71BC7541200F6CA07 /* UIViewController+AOP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC71CB11BC7523A00F6CA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC71C8F1BC7523A00F6CA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC71C961BC7523A00F6CA07;
+			remoteInfo = "02-横切控制器的生命周期函数";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC71C971BC7523A00F6CA07 /* 02-横切控制器的生命周期函数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-横切控制器的生命周期函数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC71C9B1BC7523A00F6CA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC71C9C1BC7523A00F6CA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC71C9E1BC7523A00F6CA07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC71C9F1BC7523A00F6CA07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC71CA11BC7523A00F6CA07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCC71CA21BC7523A00F6CA07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCC71CA51BC7523A00F6CA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC71CA71BC7523A00F6CA07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCC71CAA1BC7523A00F6CA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCC71CB01BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-横切控制器的生命周期函数Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC71CB51BC7523A00F6CA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC71CB61BC7523A00F6CA07 /* _2_____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____________Tests.m"; sourceTree = "<group>"; };
+		BCC71CC01BC7528100F6CA07 /* UserRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRecord.h; sourceTree = "<group>"; };
+		BCC71CC11BC7528100F6CA07 /* UserRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRecord.m; sourceTree = "<group>"; };
+		BCC71CC31BC753FE00F6CA07 /* NSObject+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AOP.h"; sourceTree = "<group>"; };
+		BCC71CC41BC753FE00F6CA07 /* NSObject+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AOP.m"; sourceTree = "<group>"; };
+		BCC71CC61BC7541200F6CA07 /* UIViewController+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOP.h"; sourceTree = "<group>"; };
+		BCC71CC71BC7541200F6CA07 /* UIViewController+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOP.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC71C941BC7523A00F6CA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC71CAD1BC7523A00F6CA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC71C8E1BC7523A00F6CA07 = {
+			isa = PBXGroup;
+			children = (
+				BCC71C991BC7523A00F6CA07 /* 02-横切控制器的生命周期函数 */,
+				BCC71CB31BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests */,
+				BCC71C981BC7523A00F6CA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC71C981BC7523A00F6CA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC71C971BC7523A00F6CA07 /* 02-横切控制器的生命周期函数.app */,
+				BCC71CB01BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC71C991BC7523A00F6CA07 /* 02-横切控制器的生命周期函数 */ = {
+			isa = PBXGroup;
+			children = (
+				BCC71CC31BC753FE00F6CA07 /* NSObject+AOP.h */,
+				BCC71CC41BC753FE00F6CA07 /* NSObject+AOP.m */,
+				BCC71CC61BC7541200F6CA07 /* UIViewController+AOP.h */,
+				BCC71CC71BC7541200F6CA07 /* UIViewController+AOP.m */,
+				BCC71C9E1BC7523A00F6CA07 /* AppDelegate.h */,
+				BCC71C9F1BC7523A00F6CA07 /* AppDelegate.m */,
+				BCC71CA11BC7523A00F6CA07 /* ViewController.h */,
+				BCC71CA21BC7523A00F6CA07 /* ViewController.m */,
+				BCC71CC01BC7528100F6CA07 /* UserRecord.h */,
+				BCC71CC11BC7528100F6CA07 /* UserRecord.m */,
+				BCC71CA41BC7523A00F6CA07 /* Main.storyboard */,
+				BCC71CA71BC7523A00F6CA07 /* Images.xcassets */,
+				BCC71CA91BC7523A00F6CA07 /* LaunchScreen.xib */,
+				BCC71C9A1BC7523A00F6CA07 /* Supporting Files */,
+			);
+			path = "02-横切控制器的生命周期函数";
+			sourceTree = "<group>";
+		};
+		BCC71C9A1BC7523A00F6CA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC71C9B1BC7523A00F6CA07 /* Info.plist */,
+				BCC71C9C1BC7523A00F6CA07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC71CB31BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC71CB61BC7523A00F6CA07 /* _2_____________Tests.m */,
+				BCC71CB41BC7523A00F6CA07 /* Supporting Files */,
+			);
+			path = "02-横切控制器的生命周期函数Tests";
+			sourceTree = "<group>";
+		};
+		BCC71CB41BC7523A00F6CA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC71CB51BC7523A00F6CA07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC71C961BC7523A00F6CA07 /* 02-横切控制器的生命周期函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC71CBA1BC7523A00F6CA07 /* Build configuration list for PBXNativeTarget "02-横切控制器的生命周期函数" */;
+			buildPhases = (
+				BCC71C931BC7523A00F6CA07 /* Sources */,
+				BCC71C941BC7523A00F6CA07 /* Frameworks */,
+				BCC71C951BC7523A00F6CA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-横切控制器的生命周期函数";
+			productName = "02-横切控制器的生命周期函数";
+			productReference = BCC71C971BC7523A00F6CA07 /* 02-横切控制器的生命周期函数.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC71CAF1BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC71CBD1BC7523A00F6CA07 /* Build configuration list for PBXNativeTarget "02-横切控制器的生命周期函数Tests" */;
+			buildPhases = (
+				BCC71CAC1BC7523A00F6CA07 /* Sources */,
+				BCC71CAD1BC7523A00F6CA07 /* Frameworks */,
+				BCC71CAE1BC7523A00F6CA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC71CB21BC7523A00F6CA07 /* PBXTargetDependency */,
+			);
+			name = "02-横切控制器的生命周期函数Tests";
+			productName = "02-横切控制器的生命周期函数Tests";
+			productReference = BCC71CB01BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC71C8F1BC7523A00F6CA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "肖喆";
+				TargetAttributes = {
+					BCC71C961BC7523A00F6CA07 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BCC71CAF1BC7523A00F6CA07 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BCC71C961BC7523A00F6CA07;
+					};
+				};
+			};
+			buildConfigurationList = BCC71C921BC7523A00F6CA07 /* Build configuration list for PBXProject "02-横切控制器的生命周期函数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC71C8E1BC7523A00F6CA07;
+			productRefGroup = BCC71C981BC7523A00F6CA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC71C961BC7523A00F6CA07 /* 02-横切控制器的生命周期函数 */,
+				BCC71CAF1BC7523A00F6CA07 /* 02-横切控制器的生命周期函数Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC71C951BC7523A00F6CA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC71CA61BC7523A00F6CA07 /* Main.storyboard in Resources */,
+				BCC71CAB1BC7523A00F6CA07 /* LaunchScreen.xib in Resources */,
+				BCC71CA81BC7523A00F6CA07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC71CAE1BC7523A00F6CA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC71C931BC7523A00F6CA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC71CA31BC7523A00F6CA07 /* ViewController.m in Sources */,
+				BCC71CC81BC7541200F6CA07 /* UIViewController+AOP.m in Sources */,
+				BCC71CC21BC7528100F6CA07 /* UserRecord.m in Sources */,
+				BCC71CC51BC753FE00F6CA07 /* NSObject+AOP.m in Sources */,
+				BCC71CA01BC7523A00F6CA07 /* AppDelegate.m in Sources */,
+				BCC71C9D1BC7523A00F6CA07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC71CAC1BC7523A00F6CA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC71CB71BC7523A00F6CA07 /* _2_____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC71CB21BC7523A00F6CA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC71C961BC7523A00F6CA07 /* 02-横切控制器的生命周期函数 */;
+			targetProxy = BCC71CB11BC7523A00F6CA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC71CA41BC7523A00F6CA07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC71CA51BC7523A00F6CA07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC71CA91BC7523A00F6CA07 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC71CAA1BC7523A00F6CA07 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC71CB81BC7523A00F6CA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC71CB91BC7523A00F6CA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC71CBB1BC7523A00F6CA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-横切控制器的生命周期函数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC71CBC1BC7523A00F6CA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-横切控制器的生命周期函数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCC71CBE1BC7523A00F6CA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-横切控制器的生命周期函数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-横切控制器的生命周期函数.app/02-横切控制器的生命周期函数";
+			};
+			name = Debug;
+		};
+		BCC71CBF1BC7523A00F6CA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-横切控制器的生命周期函数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-横切控制器的生命周期函数.app/02-横切控制器的生命周期函数";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC71C921BC7523A00F6CA07 /* Build configuration list for PBXProject "02-横切控制器的生命周期函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC71CB81BC7523A00F6CA07 /* Debug */,
+				BCC71CB91BC7523A00F6CA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC71CBA1BC7523A00F6CA07 /* Build configuration list for PBXNativeTarget "02-横切控制器的生命周期函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC71CBB1BC7523A00F6CA07 /* Debug */,
+				BCC71CBC1BC7523A00F6CA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCC71CBD1BC7523A00F6CA07 /* Build configuration list for PBXNativeTarget "02-横切控制器的生命周期函数Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC71CBE1BC7523A00F6CA07 /* Debug */,
+				BCC71CBF1BC7523A00F6CA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC71C8F1BC7523A00F6CA07 /* Project object */;
+}
